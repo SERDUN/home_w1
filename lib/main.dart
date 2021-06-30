@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'hm1.dart';
-import 'hm1_1.dart';
-import 'hm2.dart';
-import 'hm2_1.dart';
-import 'hm2_2.dart';
-import 'hm2_3.dart';
-import 'hm2_4.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +19,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HM2_4(),
+      home: HM1(),
     );
   }
 }
