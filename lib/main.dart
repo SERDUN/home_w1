@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:home1/example/solveds/y_tsolve1/y_tsolved1.dart';
 
 import 'example/input/input_get_text_callback.dart';
 import 'example/input/input_get_text_controller.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: InputGetTextController(),
+      home: YTsolved1(),
     );
   }
 }
